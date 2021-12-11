@@ -31,6 +31,6 @@ function halloprogrammer(Programmer $programmer) {
     echo "hallo programmer $programmer->name" . PHP_EOL;
 }
 
-halloprogrammer(new Programmer("hafidz"));
-halloprogrammer(new BackendProgrammer("hafidz"));
-halloprogrammer(new FrontendProgrammer("hafidz"));
+// halloprogrammer(new Programmer("hafidz"));
+// halloprogrammer(new BackendProgrammer("hafidz"));
+// halloprogrammer(new FrontendProgrammer("hafidz"));

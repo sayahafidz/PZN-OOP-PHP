@@ -10,7 +10,7 @@ abstract class Lokasi {
 }
 
 class Kota extends Lokasi {
-    // overide abstract funciton
+    // overide abstract function
     public function run() {
         return 'run';
     }
