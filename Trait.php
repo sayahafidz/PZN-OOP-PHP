@@ -52,7 +52,12 @@ class parentPerson {
 class Person extends parentPerson {
     // contoh penggunaan trait
     // semua function yang ada pada trait dibawah akan ter-include ke dalam class person (bukan pewarisan mirip extension)
-    use sayGoodbye, sayHallo, hasName, canRun;
+    use sayGoodbye, sayHallo, hasName, canRun{
+        // trait visibility overriding
+        // mengubah visibility dari function trait dari public menjadi private
+        // hallo as private;
+        // goodbye as private;
+    }
 
     public function run(): void {
         // override abstrack class
